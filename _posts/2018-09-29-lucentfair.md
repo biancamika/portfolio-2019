@@ -4,7 +4,8 @@ title:  "Lucent Fair 2018"
 date:   2018-09-29 12:26:41 +0800
 categories: design
 type: "Brand Identity"
-thumbnail: ../../assets/lucent.gif
+thumbnail: ../../assets/lucentdp.png
+video: ../../assets/lucent.gif
 intro: "Identity and collateral for a mental healthy creativity fair"
 ---
 

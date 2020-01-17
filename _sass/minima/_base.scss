@@ -244,10 +244,21 @@
 
 
  .header {
-  background-image:url('../../assets/websiteheader.png');
-  background-size:cover;
+
+  background-image:url('../../assets/businesscardnewart.gif');
+  background-color:white;
+  /* For mobile */
+  background-size: cover; 
+
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    background-size: 60%;
+  }
+
+  background-repeat:no-repeat;
   background-position:center;
   height:100vh;
+
  }
 
  @media (min-width: 1200px) {
@@ -259,9 +270,7 @@
  .short-about {
     padding: 15vh 5vw 15vh 5vw;
 
-    p {
-      text-align:justify;
-    }
+    
 
     a, a:visited {
       text-decoration:underline;
@@ -450,12 +459,16 @@
   */
  
  .svg-icon {
-     width: 16px;
+     width: 25px;
      height: 16px;
      display: inline-block;
-     fill: #{$grey-color};
+     fill: #{$grey-color-dark};
      padding-right: 5px;
      vertical-align: text-top;
+
+     :hover {
+       fill: #{$grey-color};
+     }
  }
  
  .social-media-list {
@@ -494,5 +507,19 @@
    }
  }
 
- 
+ /* Smooth scrolling */
+ html {
+  scroll-behavior: smooth;
+ }
+
+ /* footer link */
+
+ footer a {
+  color: $grey-color-dark !important;
+  
+  :hover {
+    color: $grey-color;
+    text-decoration:underline;
+  }
+ }
  

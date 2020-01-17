@@ -5,7 +5,8 @@ date:   2018-12-01 12:00:00 +0800
 categories: art
 type: "Multimedia"
 intro: "An animated trailer of a hypothetical dance app"
-thumbnail: ../../assets/pinpointe.gif
+thumbnail: ../../assets/pinpointe.png
+video: ../../assets/pinpointe.gif
 ---
 
 <iframe src="https://www.youtube.com/embed/EZwmT5467Pc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

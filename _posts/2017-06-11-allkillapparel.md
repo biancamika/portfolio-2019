@@ -3,9 +3,10 @@ layout: post
 title:  "Allkill Apparel"
 date:   2017-06-11 12:26:41 +0800
 categories: design
-type: "Brand Identity"
+type: "Creative Direction"
 intro: "Identity, collateral, and textile design for a mock K-Pop-inspired clothing brand"
-thumbnail: ../../assets/allkill.gif
+thumbnail: ../../assets/allkilldp.png
+video: ../../assets/allkill.gif
 ---
 
 All-kill: (n.) when a song reaches #1 in all realtime charts.

@@ -5,7 +5,8 @@ date:   2018-01-26 12:26:41 +0800
 categories: design
 type: "Brand Identity"
 intro: "Identity and collateral of two-day event on startups and technopreneurship for the youth"
-thumbnail: ../../assets/startupchallenge.gif
+thumbnail: ../../assets/startupchallenge.png
+video: ../../assets/startupchallenge.gif
 ---
 ## Youthhack Manila
 [Youthhack Manila](https://www.facebook.com/YouthHackMNL/) is the NCR chapter of [Youthhack](https://youthhack.net/), a nonprofit organization that helps students learn more about startups, technology and entrepreneurship.

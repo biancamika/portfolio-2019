@@ -5,7 +5,8 @@ date:   2018-01-30 12:26:41 +0800
 categories: art
 type: "Digital Art"
 intro: "Sticker sets drawn and designed with love"
-thumbnail: ../../assets/stickers.gif
+thumbnail: ../../assets/stickermockup.png
+video: ../../assets/stickers.gif
 ---
 I created these two sticker sets as a way of defining my style in both art and design.
 

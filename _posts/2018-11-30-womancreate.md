@@ -5,7 +5,8 @@ date:   2018-11-30 12:26:41 +0800
 categories: art
 type: "Digital Art"
 intro: "Digital art and multimedia for a feminist art studio"
-thumbnail: ../../assets/womancreate.gif
+thumbnail: ../../assets/planners.jpeg
+video: ../../assets/womancreate.gif
 ---
 
 [Woman, Create](https://womancreate.com/) is an art studio founded and run by Marika Callangan that focuses in art-making, design, independent publication and events, and advocacy for intersectional feminism (or 'everyday' feminism) for Filipinos. 
