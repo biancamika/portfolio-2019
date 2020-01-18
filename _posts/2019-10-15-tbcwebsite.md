@@ -81,25 +81,44 @@ A previous designer on the project was responsible for creating the current bran
 
 To make the website more visually appealing, Justine specifically asked for <a href="http://undraw.co">undraw.co</a> illustrations. Using the brand identity as a guide, I personally chose and edited the illustrations that were put on the website.
 
-## Development
+## Iteration
 
 ![sketches](../../assets/brinescreenshot.png)
 
 <p style="text-align:center;color:grey;">Screen captures of Brine demo website</p>
 
-To save time, I started making the website after my wireframes were approved. The website was built on Squarespace due to its ease of use. The base of its design is the <a href="https://www.squarespace.com/templates/brine">Brine template</a>, chosen for its flexibility. 
+To save time, I started making the website after my wireframes were approved. The website was built on Squarespace due to its ease of use. The base of its design is the <a href="https://www.squarespace.com/templates/brine">Brine template</a>, chosen for its flexibility in customization. I also chose it for its minimalistic layout, which I wanted to apply to TBC.
+
+### Homepage
+
+![screenshot](../../assets/tbcwebsite.gif)
+
+<p style="text-align:center;color:grey;">Video capture of TBC Homepage</p>
+
+Compared to the previous website's (which was just blog posts in reverse chronological order), this current iteration has a better user onboarding experience. First, it gives the reader a starting point by suggesting articles based on their demographic, along with some featured blog posts. After that, it introduces Justine, and also links to her speaking page. It then accounts for the case of a reader who needs more guidance with a call to action button to her resume consultation page. Finally, the TBC newsletter is shown. Client testimonials are spread throughout to enforce credibility.
+
+### Blog Post
+
+![screenshot](../../assets/ctacomparison.png)
+
+<p style="text-align:center;color:grey;">Comparison of old and new blog post CTA</p>
+
+Reading articles on the new website is considerably easier due to a cleaner interface. It also has a shorter call to action, since many of its components (e.g. contact details, email list) were transferred to other website pages.
+
 
 ## Final Output
 
 ![screenshot](../../assets/newtbcscreencaps.png)
 
+<p style="text-align:center;color:grey;">Screen captures of pages in TBC Website</p>
+
 ![screenshot](../../assets/tbcmockups.png)
 
 <p style="text-align:center;color:grey;">Responsive mockup of TBC website (by <a href="https://medialoot.com/item/responsive-screen-perspective-mockup/">Tony Thomas</a>)</p>
 
-![screenshot](../../assets/tbcwebsite.gif)
 
-<p style="text-align:center;color:grey;">Video capture of TBC Homepage</p>
+
+
 
 ## Next Steps
 - **Polish responsive design for mobile platforms.** Due to the limits of the Squarespace platform, I found myself hard coding many of the website's custom features (e.g. font, tables). Unfortunately, the website's responsiveness is still lacking; text that may look like the right size on desktop will look too big on mobile. My usual hard coding hasn't worked, but I'm still trying to figure out a solution to this problem.
