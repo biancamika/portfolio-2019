@@ -87,11 +87,7 @@ To make the website more visually appealing, Justine specifically asked for <a h
 
 <p style="text-align:center;color:grey;">Screen captures of Brine demo website</p>
 
-The website was built on Squarespace due to its ease of use. The base of its design is the <a href="https://www.squarespace.com/templates/brine">Brine template</a>, chosen for its flexibility. 
-
-To save time, I started working in Squarespace after my wireframes were approved.
-
-# Responsive Design
+To save time, I started making the website after my wireframes were approved. The website was built on Squarespace due to its ease of use. The base of its design is the <a href="https://www.squarespace.com/templates/brine">Brine template</a>, chosen for its flexibility. 
 
 ## Final Output
 
@@ -101,8 +97,9 @@ To save time, I started working in Squarespace after my wireframes were approved
 
 <p style="text-align:center;color:grey;">Responsive mockup of TBC website (by <a href="https://medialoot.com/item/responsive-screen-perspective-mockup/">Tony Thomas</a>)</p>
 
-
 ![screenshot](../../assets/tbcwebsite.gif)
+
+<p style="text-align:center;color:grey;">Video capture of TBC Homepage</p>
 
 ## Next Steps
 - **Polish responsive design for mobile platforms.** Due to the limits of the Squarespace platform, I found myself hard coding many of the website's custom features (e.g. font, tables). Unfortunately, the website's responsiveness is still lacking; text that may look like the right size on desktop will look too big on mobile. My usual hard coding hasn't worked, but I'm still trying to figure out a solution to this problem.
