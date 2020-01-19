@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Woman, Create Internship"
+title:  "Woman, Create"
 date:   2018-11-30 12:26:41 +0800
 categories: art
 type: "Digital Art"
