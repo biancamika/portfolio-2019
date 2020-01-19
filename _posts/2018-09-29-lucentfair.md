@@ -6,7 +6,7 @@ categories: design
 type: "Brand Identity"
 thumbnail: ../../assets/lucentdp.png
 video: ../../assets/lucent.gif
-intro: "Identity and collateral for a mental healthy creativity fair"
+intro: "Identity and collateral for a mental health creativity fair"
 ---
 
 [Lucent](https://www.facebook.com/lucentfair/) (previously named Luna) is an annual creativity fair that aims to promote mental health awareness through art, workshops, talks, and performances. As the Creatives Head, I was responsible for designing of the event's identity and collateral + managing a team of ~5 creatives.
