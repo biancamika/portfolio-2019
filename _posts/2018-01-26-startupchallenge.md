@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DICT-Youthhack Manila Startup Challenge 2018: High School Edition"
+title:  "Startup Challenge 2018: High School Edition"
 date:   2018-01-26 12:26:41 +0800
 categories: design
 type: "Brand Identity"

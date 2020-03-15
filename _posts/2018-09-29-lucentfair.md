@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lucent Fair 2018"
+title:  "Lucent Fair"
 date:   2018-09-29 12:26:41 +0800
 categories: design
 type: "Brand Identity"
