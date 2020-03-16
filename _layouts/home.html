@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
+<div class="loader-wrapper">
+<div class="loader"></div>
+</div>
 <div class="header container-fluid">
-  <!--<h2 style='text-align:center; padding-top: 30%;'>"The art challenges the technology, and the technology inspires the art."</h2>-->
 </div>
 <div id="about" class="short-about container-fluid">
   <div class="container">
@@ -58,6 +60,12 @@ layout: default
   <script src="../js/imagesloaded.pckd.min.js"></script>
   <!--custom-->
   <script src="../js/custom.js"></script>
+  <!--loading screen-->
+  <script>
+    $(window).on("load", function(){
+      $(".loader-wrapper").fadeOut("slow");
+    });
+  </script>
   <!--
   {%- if site.posts.size > 0 -%}
     <ul class="post-list">
