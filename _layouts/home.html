@@ -1,105 +1,119 @@
 ---
 layout: default
 ---
-<div class="loader-wrapper">
-<div class="loader"></div>
-</div>
-<div class="header container-fluid">
-</div>
-<div id="about" class="short-about container-fluid">
-  <div class="container">
-  <div class="row">
-      <div class="short-about-profile col-lg">
-      <img src="../assets/pic.jpg">
-    </div>
-    <div class="short-about-text col-lg">
-      <h1>Hi, I'm Bianca Aguilar! </h1>
-      <p>I'm a Manila-based <span>artist and designer</span> who develops visuals to empower <span>personal brands & mission-driven organizations</span>. Currently, I'm an AB Interdisciplinary Studies (Information Design & CS Programming) in Ateneo de Manila University.
-        I'm also Chief Marketing Officer of <a href="https://developh.org/">Developh</a>: a global non-profit investing in ASEAN youth-led innovation for social good. In my spare time, I enjoy reading about self-actualization and dancing contemporary.</p>
-    </div>
+<script>
+</script>
+  <!--loading screen-->
+  <div class="loader-wrapper">
+  <!--
+  <h1>"Identities are the beginning of everything."</h1>
+  <h2>- Paula Scher</h2>
+  -->
+  <div class="loader"></div>
   </div>
+  <!--content-->
+  <div class="header container-fluid">
   </div>
-</div>
-<div id="home" class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
-
-  {%- if site.posts.size > 0 -%}
-  <div class="grid container-fluid">
-    {%- for post in site.posts -%}
+  <div id="about" class="short-about container-fluid">
+    <div class="container">
     <div class="row">
-      <!--
-      <div class="grid-item col-sm-3" {% if post.thumbnail %}style="background-image:url({{ post.thumbnail }}); background-position:center; background-size:cover;"{% endif %}>
-      -->
-      <div class="grid-item col-md-3 col-lg-4">
-        <a href="{{ post.url | relative_url }}">
-            <img src="{{ post.thumbnail }}" alt="{{ post.title | escape }}"/>
-            <div class="grid-item-hover">
-              <div class="item-info">
-                <h2 class="post-title">{{ post.title | escape }}</h2>
-                <p>{{ post.type }}</p>
-              </div>
-            </div>
-        </a>
+        <div class="short-about-profile col-lg">
+        <img src="../assets/pic.jpg">
+      </div>
+      <div class="short-about-text col-lg">
+        <h1>Hi, I'm Bianca Aguilar! </h1>
+        <p>I'm a Manila-based <span>artist and designer</span> who develops visuals to empower <span>personal brands & mission-driven organizations</span>. Currently, I'm an AB Interdisciplinary Studies (Information Design & CS Programming) in Ateneo de Manila University.
+          I'm also Chief Marketing Officer of <a href="https://developh.org/">Developh</a>: a global non-profit investing in ASEAN youth-led innovation for social good. In my spare time, I enjoy reading about self-actualization and dancing contemporary.</p>
       </div>
     </div>
-    {%- endfor -%} 
+    </div>
   </div>
-  {%- endif -%}
+  <div id="home" class="home">
+    {%- if page.title -%}
+      <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
 
-  <!--jquery-->
-  <script src="../js/jquery-3.4.1.js"></script>
-  <!--plugins-->
-  <script src="../js/bootstrap.min.js"></script>
-  <script src="../js/isotope.pckd.min.js"></script>
-  <script src="../js/packery-mode.pckd.min.js"></script>
-  <script src="../js/imagesloaded.pckd.min.js"></script>
-  <!--custom-->
-  <script src="../js/custom.js"></script>
-  <!--loading screen-->
-  <script>
-    $(window).on("load", function(){
-      $(".loader-wrapper").fadeOut("slow");
-    });
-  </script>
-  <!--
-  {%- if site.posts.size > 0 -%}
-    <ul class="post-list">
+    {{ content }}
+
+
+    {%- if site.posts.size > 0 -%}
+    <div class="grid container-fluid">
       {%- for post in site.posts -%}
-      <li>
-        <a href="{{ post.url | relative_url }}">
-        <img src="{{ post.thumbnail | crop: 'center', scale: 2 }}" alt="{{ post.title | escape }}"/>
-        </a>
-      </li>
-      {%- endfor -%}  
-    </ul>
-  {%- endif -%}
-  -->
-<!--
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        <img src="{{ post.thumbnail }}" />
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
+      <div class="row">
+        <!--
+        <div class="grid-item col-sm-3" {% if post.thumbnail %}style="background-image:url({{ post.thumbnail }}); background-position:center; background-size:cover;"{% endif %}>
+        -->
+        <div class="grid-item col-md-3 col-lg-4">
+          <a href="{{ post.url | relative_url }}">
+              <img src="{{ post.thumbnail }}" alt="{{ post.title | escape }}"/>
+              <div class="grid-item-hover">
+                <div class="item-info">
+                  <h2 class="post-title">{{ post.title | escape }}</h2>
+                  <p>{{ post.type }}</p>
+                </div>
+              </div>
           </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-  {%- endif -%}
--->
+        </div>
+      </div>
+      {%- endfor -%} 
+    </div>
+    {%- endif -%}
 
-</div>
+    <!--jquery-->
+    <script src="../js/jquery-3.4.1.js"></script>
+    <!--plugins-->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/isotope.pckd.min.js"></script>
+    <script src="../js/packery-mode.pckd.min.js"></script>
+    <script src="../js/imagesloaded.pckd.min.js"></script>
+    <script src="../js/jquery.disablescroll.min.js"></script>
+    <!--custom-->
+    <script src="../js/custom.js"></script>
+    <!--loading screen-->
+    <script>
+      var $nonScrollable = $(".loader-wrapper");
+      $nonScrollable.disablescroll();
+
+      $(window).on("load", function(){
+        $(".loader-wrapper").fadeOut(1000, function() {
+          $nonScrollable.disablescroll("undo");
+        });
+      });
+    </script>
+    <!--
+    {%- if site.posts.size > 0 -%}
+      <ul class="post-list">
+        {%- for post in site.posts -%}
+        <li>
+          <a href="{{ post.url | relative_url }}">
+          <img src="{{ post.thumbnail | crop: 'center', scale: 2 }}" alt="{{ post.title | escape }}"/>
+          </a>
+        </li>
+        {%- endfor -%}  
+      </ul>
+    {%- endif -%}
+    -->
+  <!--
+    {%- if site.posts.size > 0 -%}
+      <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+      <ul class="post-list">
+        {%- for post in site.posts -%}
+        <li>
+          <img src="{{ post.thumbnail }}" />
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+  -->
+
+  </div>
