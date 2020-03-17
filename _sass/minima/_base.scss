@@ -321,54 +321,12 @@
         }
 
       }
-
-       /* for mobile */
-      @media (max-width: 768px) {
-
-        img {
-          width:100%;
-        }
-
-        ul {
-          text-align:center;
-          max-width: 540px;
-          font-size: 350%;
-          margin-bottom: 2vh;
-        }
-
-      }
     
     .short-about-profile {
       top: 2.7vh;
     }
  }
 
- .long-about {
-
-    p {
-      text-align:justify;
-    }
-
-    a, a:visited {
-      text-decoration:underline;
-      color: $text-color !important;
-    }
-
-    a:hover {
-      color:$grey-color !important;
-    }
-
-    span {
-      font-weight:bold;
-    }
- }
-
- .about-pic {
-   width: 45% !important;
-   border: 10px solid $brand-color; 
-   margin-bottom: 20px;
-   margin-left: 30px;
- }
 
 /* isotope */
 
