@@ -250,10 +250,15 @@
   /* For mobile */
   background-size: cover; 
 
-  @media only screen and (min-width: 768px) {
-    /* For desktop: */
+  @media only screen and (min-width: $on-tablet) {
+    background-size: 80%;
+  }
+
+  /* for desktop */
+  @media only screen and (min-width: $on-laptop) {
     background-size: 60%;
   }
+
 
   background-repeat:no-repeat;
   background-position:center;

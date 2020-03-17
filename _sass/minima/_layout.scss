@@ -22,10 +22,11 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    color: $text-color;
   
     &,
     &:visited {
-      color: $grey-color-dark;
+      color: $text-color;
     }
   }
   
@@ -44,7 +45,8 @@
     .page-link {
       color: $text-color;
       line-height: $base-line-height;
-      font-size: $base-font-size * 1.2;
+      font-size: $base-font-size * 1.25;
+      
   
       // Gaps between nav items, but not on the last one
       &:not(:last-child) {
@@ -205,7 +207,7 @@
       }
 
       p {
-        font-size: 151%;
+        font-size: 160%;
         width:calc(#{$content-width} /  1.1);
       }
 
