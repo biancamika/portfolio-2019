@@ -28,6 +28,12 @@
     &:visited {
       color: $text-color;
     }
+
+    &:hover {
+      color: $grey-color;
+      -webkit-transition: 0.5s ease;
+      transition: 0.5s ease;
+    }
   }
   
   .site-nav {
@@ -46,6 +52,8 @@
       color: $text-color;
       line-height: $base-line-height;
       font-size: $base-font-size * 1.25;
+      -webkit-transition: 0.5s ease;
+      transition: 0.5s ease;
       
   
       // Gaps between nav items, but not on the last one
@@ -210,6 +218,16 @@
         font-size: 160%;
         width:calc(#{$content-width} /  1.1);
       }
+
+      /* for tablet */
+
+      @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+        img {
+          width:100vw;
+        }
+      }
+      
 
       /* for mobile */
       @include media-query($on-palm) {

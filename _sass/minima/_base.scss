@@ -274,6 +274,8 @@
  
  .short-about {
     padding: 15vh 5vw 15vh 5vw;
+    display:flex;
+    align-items:center;
 
     
 
@@ -310,7 +312,7 @@
     
 
       img {
-        width: 360px;
+        width: 385px;
         display:block;
         -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
         filter: grayscale(100%);
@@ -328,7 +330,8 @@
       }
     
     .short-about-profile {
-      top: 2.7vh;
+      //top: 2.8vh;
+      margin: 0 auto;
     }
  }
 
