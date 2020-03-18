@@ -347,6 +347,10 @@
   
   .post-content {
     margin-bottom: $spacing-unit;
+
+    h1, h2, h3 {
+      font-family: $alt-font-family;
+    }
   
     h2 {
       @include relative-font-size(2);

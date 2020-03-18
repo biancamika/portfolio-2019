@@ -9,20 +9,13 @@ thumbnail: ../../assets/planners.jpeg
 video: ../../assets/womancreate.gif
 ---
 
-[Woman, Create](https://womancreate.com/) is an art studio founded and run by Marika Callangan that focuses in art-making, design, independent publication and events, and advocacy for intersectional feminism (or 'everyday' feminism) for Filipinos. 
-
-I was chosen as one of the five Creative interns for the batch of Summer 2018. 
-
-## 365 Wonders Creative Planner
-
 ![planners](../../assets/planners.jpeg)
 
-The main project for us interns was the 2019 iteration of 365 Wonders, a creative planner that aimed to spark feminist consciousness through Filipino art. Copies of this planner were sold nationwide, and a portion of its proceeds were donated to Young Focus, a non-profit organization that works to bring education to kids and families in Smokey Mountain, Tondo, Manila.
+The **365 Wonders 2019 Creative Planner** is a creative planner that aimed to spark feminist consciousness through Filipino art. It is an initiative of [Woman, Create](https://womancreate.com/): an art studio that focuses in art-making, design, independent publication and events, and advocacy for intersectional feminism (or ‘everyday’ feminism) for Filipinos. Copies of this planner were sold nationwide, and a portion of its proceeds were donated to Young Focus, a non-profit organization that works to bring education to kids and families in Smokey Mountain, Tondo, Manila.
 
-Aside from all working on the "Diversity" cover (see first cover, bottom-left for my contribution), each of us contributed two monthly cover art pieces that were based on feminist themes.
+As one of the five Creatives Interns of Woman, Create for the batch of Summer 2018, I contributed to the "Diversity" cover (first cover, bottom-left part) and created two monthly cover artworks based  on feminist themes.
 
-I was tasked to work on these two themes: **"Feminism: Where We Stand"** for the month of January, and **"Power"** for the month of October.
-
+## Artworks
 
 ![artwork](../../assets/print.png) 
 
@@ -48,5 +41,5 @@ Contributor artworks were also shown in EDITION: FEMINISM, a month-long contempo
 
 ![exhibit](../../assets/editionfeminism.jpg)
 ![exhibit](../../assets/profile.jpg)
-![exhibit](../../assets/exhibit1.jpg)
+![exhibit](../../assets/paintings.png)
 ![exhibit](../../assets/exhibit2.jpg)
