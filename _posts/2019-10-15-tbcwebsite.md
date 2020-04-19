@@ -117,9 +117,6 @@ Reading articles on the new website is considerably easier due to a cleaner inte
 <p style="text-align:center;color:grey;">Responsive mockup of TBC website (by <a href="https://medialoot.com/item/responsive-screen-perspective-mockup/">Tony Thomas</a>)</p>
 
 
-
-
-
 ## Next Steps
 - **Polish responsive design for mobile platforms.** Due to the limits of the Squarespace platform, I found myself hard coding many of the website's custom features (e.g. font, tables). Unfortunately, the website's responsiveness is still lacking; text that may look like the right size on desktop will look too big on mobile. My usual hard coding hasn't worked, but I'm still trying to figure out a solution to this problem.
 - **Conducting usability research.** Working with participants in Justine's target demographic (i.e. college kids) will help me find more issues with using the website.
