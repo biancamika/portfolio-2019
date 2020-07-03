@@ -14,6 +14,8 @@ video: ../../assets/coverarete.gif
 
 In response to the pandemic, Areté launched [Areté Connect](https://arete.ateneo.edu/connect), an online portal of its programs, which were the following: **Our Way Forward** (a series of analyses, speculations, and projections on the ways that the COVID crisis will shape our future, and the resilient systems we should build in its aftermath), **Virtual Programs** (open-level classes on craft, dance, exercise, etc.), and **Theatre in Demand** (full-length plays made available online). I was tasked to illustrate banners of these.
 
+## Output
+
 ![illustration](../../assets/ourwayforward.jpg)
 
 <p style="text-align:center;color:grey;">Our Way Forward Illustration</p>
